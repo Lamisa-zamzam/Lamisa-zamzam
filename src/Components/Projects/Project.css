@@ -1,0 +1,38 @@
+.image1{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.popUpImage1 {
+    position: absolute;
+    top: 30%;
+    right: 25%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.popUpImage2 {
+    position: absolute;
+    top: 55%;
+    right: 20%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.popUpImage3 {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.projectTitle {
+    color: green;
+    
+}
+
+.projectSummary{
+    color: green;
+    text-decoration: overline;
+}
