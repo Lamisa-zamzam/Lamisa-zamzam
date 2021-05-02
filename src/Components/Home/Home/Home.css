@@ -1,0 +1,28 @@
+.home{
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
+.home-section{
+    border-top: 5px solid dodgerblue;
+    border-bottom: 5px solid dodgerblue;
+    padding: 5%;
+}
+
+.resume-section{
+    padding-left: 10%;
+}
+
+.rightAlignedButton{
+    margin-left: 85%;
+}
+
+@media(max-width: 760px){
+    .rightAlignedButton{
+        margin-left: 55%;
+    }
+    .home-resume{
+        margin-bottom: 10%;
+    }
+}

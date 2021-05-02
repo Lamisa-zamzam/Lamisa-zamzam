@@ -7,14 +7,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Button, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import ProjectsShort from "../ProjectsShort/ProjectsShort";
 import "./Resume.css";
 import { skillsFakeData } from "./SkillsFakeData";
 import { ToolsFakeData } from "./ToolsFakeData";
-import screenshot1 from "../../images/2021-05-01 (9).png";
-import screenshot2 from "../../images/2021-05-01 (11).png";
-import screenshot3 from "../../images/2021-05-01 (23).png";
-import screenshot4 from "../../images/2021-05-01 (15).png";
-import screenshot5 from "../../images/2021-05-01 (24).png";
 
 const Resume = () => {
     return (
@@ -60,7 +56,7 @@ const Resume = () => {
             <h3>My skills</h3>
             <Row>
                 {skillsFakeData.map((skill) => (
-                    <Col md={3}>
+                    <Col md={4} lg={3}>
                         {" "}
                         <div className="infoDiv skillsInfo">
                             <Row>
@@ -111,125 +107,7 @@ const Resume = () => {
             <br />
             <br />
             <br />
-            <div>
-                <Row>
-                    <Col md={9}>
-                        {" "}
-                        <h1>My Projects</h1>
-                    </Col>
-                    <Col md={3} className="mt-2">
-                        {" "}
-                        <Button
-                            as={Link}
-                            to="/projects"
-                            target="_blank"
-                            download
-                        >
-                            Show Detail
-                            <FontAwesomeIcon
-                                icon={faArrowRight}
-                                className="ml-2"
-                            />{" "}
-                        </Button>
-                    </Col>
-                </Row>
-                <br />
-                <div className="infoDiv">
-                    <Row>
-                        <Col md={3}>
-                            <img
-                                src={screenshot1}
-                                className="projectImg"
-                                alt=""
-                            />
-                        </Col>
-                        <Col md={9}>
-                            <h5>Zamzam International</h5>
-                            <p>
-                                This is a Visa Agency Website. Registered visa
-                                appliers can pay with their credit cards for
-                                booking a visa and give a review to the company
-                                that is added to the website.
-                            </p>
-                        </Col>
-                    </Row>
-                </div>
-                <div className="infoDiv">
-                    <Row>
-                        <Col md={3}>
-                            <img
-                                src={screenshot2}
-                                className="projectImg"
-                                alt=""
-                            />
-                        </Col>
-                        <Col md={9}>
-                            <h5>Zamzam's Collection</h5>
-                            <p>
-                                This is a full-stack website where authenticated
-                                users can buy a product and see their orders.
-                                Admins can add, edit and delete products.
-                            </p>
-                        </Col>
-                    </Row>
-                </div>
-                <div className="infoDiv">
-                    <Row>
-                        <Col md={3}>
-                            <img
-                                src={screenshot3}
-                                className="projectImg"
-                                alt=""
-                            />
-                        </Col>
-                        <Col md={9}>
-                            <h5>Globetrotter</h5>
-                            <p>
-                                This responsive project provides users with
-                                several ways to travel around the city.
-                            </p>
-                        </Col>
-                    </Row>
-                </div>
-                <div className="infoDiv">
-                    <Row>
-                        <Col md={3}>
-                            <img
-                                src={screenshot4}
-                                className="projectImg"
-                                alt=""
-                            />
-                        </Col>
-                        <Col md={9}>
-                            <h5>Juegoes del Universo</h5>
-                            <p>
-                                This responsive project relates to games, sports
-                                and the tournaments available. I used a third
-                                party API to load data about the leagues of
-                                different games.
-                            </p>
-                        </Col>
-                    </Row>
-                </div>
-                <div className="infoDiv">
-                    <Row>
-                        <Col md={3}>
-                            <img
-                                src={screenshot5}
-                                className="projectImg"
-                                alt=""
-                            />
-                        </Col>
-                        <Col md={9}>
-                            <h5>El Equipo de Suenio</h5>
-                            <p>
-                                React Interactive Website for Building Football
-                                Team
-                            </p>
-                        </Col>
-                    </Row>
-                </div>
-            </div>
+            <ProjectsShort />
             <div>
                 <br />
                 <br />
@@ -286,6 +164,12 @@ const Resume = () => {
                     </div>
                 </Col>
             </Row>
+            <p className="text-center mt-5">
+                <small>
+                    Copyright © Lamisa Zamzam {new Date().getFullYear()}, all
+                    rights reserved.{" "}
+                </small>
+            </p>
         </div>
     );
 };

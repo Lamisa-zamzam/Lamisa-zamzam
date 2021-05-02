@@ -37,7 +37,7 @@ const Header = () => {
                         </Button>
                     </Col>
                     <Col md={5}>
-                        <img src={myPicture} alt="" />
+                        <img src={myPicture} alt="" className="myPicture"/>
                     </Col>
                 </Row>
             </Container>

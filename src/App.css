@@ -8,6 +8,14 @@
    background-color:rgb(25, 29, 43);
 }
 
+
+@media(max-width: 760px){
+   .shortProjectTitle{
+      font-size: 30px;
+      margin-top: 5%;
+   }
+}
+
 .infoDiv .icon{
    margin-top: 15%;
    margin-left: 10%;

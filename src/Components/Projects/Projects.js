@@ -15,7 +15,12 @@ const Projects = () => {
            <Project3/>
            <Project4/>
            <Project5/>
-           
+           <p className="text-center mt-5">
+                <small>
+                    Copyright © Lamisa Zamzam {new Date().getFullYear()}, all
+                    rights reserved.{" "}
+                </small>
+            </p>
         </Container>
     );
 };

@@ -18,7 +18,9 @@ const About = () => {
                     color: "white",
                 }}
             >
-                 <h1 style={{marginBottom: "5%", marginLeft:"2%"}}>About me</h1>
+                <h1 style={{ marginBottom: "5%", marginLeft: "2%" }}>
+                    About me
+                </h1>
                 <Row>
                     <Col md={4}>
                         <img
@@ -28,7 +30,7 @@ const About = () => {
                                 width: "85%",
                                 border: "5px solid white",
                                 borderRadius: "1000px",
-                                marginTop:"5px",
+                                marginTop: "5px",
                             }}
                         />
                     </Col>
@@ -48,8 +50,8 @@ const About = () => {
                             can solve an issue. It's the best experience of my
                             life.
                         </p>
-                        <br/>
-                        <br/>
+                        <br />
+                        <br />
                         <p>
                             <b>Full Name : </b> Lamisa Zamzam
                         </p>
@@ -57,10 +59,12 @@ const About = () => {
                             <b>Nationality : </b> Bangladeshi
                         </p>
                         <p>
-                            <b>Languages : </b> Bengali, English, Spanish, French, Portuguese, Chinese, Arabic, Hindi
+                            <b>Languages : </b> Bengali, English, Spanish,
+                            French, Portuguese, Chinese, Arabic, Hindi
                         </p>
                         <p>
-                            <b>Address : </b> Dhap, Engineer Para, Rangpur, Bangladesh
+                            <b>Address : </b> Dhap, Engineer Para, Rangpur,
+                            Bangladesh
                         </p>
                         <p>
                             <b>Email : </b>lamisazamzam@gmail.com
@@ -71,13 +75,30 @@ const About = () => {
                             target="_blank"
                             download
                         >
-                            <FontAwesomeIcon icon={faDownload} className="icon"/> Download
-                            Resume
+                            <FontAwesomeIcon
+                                icon={faDownload}
+                                className="icon"
+                            />{" "}
+                            Download Resume
                         </Button>
                     </Col>
                 </Row>
-                <h2 style={{marginTop: "6%", marginBottom: "2%", marginLeft:"2%"}}>Get In Touch</h2>
-                <EmailForm/>
+                <h2
+                    style={{
+                        marginTop: "6%",
+                        marginBottom: "2%",
+                        marginLeft: "2%",
+                    }}
+                >
+                    Get In Touch
+                </h2>
+                <EmailForm />
+                <p className="text-center mt-5">
+                    <small>
+                        Copyright © Lamisa Zamzam {new Date().getFullYear()},
+                        all rights reserved.{" "}
+                    </small>
+                </p>
             </Container>
         </div>
     );

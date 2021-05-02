@@ -12,6 +12,12 @@ const Blogs = () => {
                     <h4 className="mt-5 text-center">My blogs are coming soon!!! Please wait 😀 !</h4>
                 </Col>
             </Row>
+            <p className="text-center mt-5">
+                <small>
+                    Copyright © Lamisa Zamzam {new Date().getFullYear()}, all
+                    rights reserved.{" "}
+                </small>
+            </p>
         </Container>
     );
 };
