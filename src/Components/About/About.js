@@ -4,6 +4,7 @@ import React from "react";
 import { Col, Container, Row, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import myPicture from "../../images/pixlr-bg-result.png";
+import EmailForm from "./EmailForm/EmailForm";
 
 const About = () => {
     return (
@@ -17,21 +18,21 @@ const About = () => {
                     color: "white",
                 }}
             >
-                 <h1 style={{marginBottom: "5%"}}>About me</h1>
+                 <h1 style={{marginBottom: "5%", marginLeft:"2%"}}>About me</h1>
                 <Row>
-                    <Col md={3}>
+                    <Col md={4}>
                         <img
                             src={myPicture}
                             alt=""
                             style={{
-                                width: "100%",
+                                width: "85%",
                                 border: "5px solid white",
                                 borderRadius: "1000px",
-                                marginTop:"5px"
+                                marginTop:"5px",
                             }}
                         />
                     </Col>
-                    <Col md={9}>
+                    <Col md={8}>
                         <h3>
                             {" "}
                             I am{" "}
@@ -75,6 +76,8 @@ const About = () => {
                         </Button>
                     </Col>
                 </Row>
+                <h2 style={{marginTop: "6%", marginBottom: "2%", marginLeft:"2%"}}>Get In Touch</h2>
+                <EmailForm/>
             </Container>
         </div>
     );

@@ -1,0 +1,22 @@
+.resumeContainer{
+    background-color: black;
+    color: white;
+    padding: 5%;
+}
+
+.skillLogo{
+    width: 100%;
+    height: 100px;
+}
+
+.projectImg{
+    width: 100%;
+}
+
+.ecaCol{
+    padding-left: 10%;
+}
+
+.ecaList li{
+    list-style-type: square;
+}

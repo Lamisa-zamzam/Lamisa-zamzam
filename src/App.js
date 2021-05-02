@@ -16,6 +16,7 @@ import MyNavbar from "./Components/MyNavbar/MyNavbar";
 import Blogs from "./Components/Blogs/Blogs";
 import NotFound from "./Components/NotFound/NotFound";
 import About from "./Components/About/About";
+import Resume from "./Components/Resume/Resume";
 
 function App() {
     return (
@@ -30,6 +31,9 @@ function App() {
                 </Route>
                 <Route path="/projects">
                     <Projects />
+                </Route>
+                <Route path="/resume">
+                    <Resume />
                 </Route>
                 <Route path="/blogs">
                     <Blogs />

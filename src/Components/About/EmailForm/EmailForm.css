@@ -1,0 +1,28 @@
+.contact-form{
+    color: white;
+    margin-left: 50px;
+}
+
+.contact-form .input, .contact-form textarea{
+    color: white;
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+    width: 80%;
+}
+
+.contact-form textarea{
+    height: 110px;
+}
+
+.contact-form .input{
+    height: 35px;
+}
+
+.contact-form .submitButton{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 2%;
+    border-radius: 5px;
+}
+
