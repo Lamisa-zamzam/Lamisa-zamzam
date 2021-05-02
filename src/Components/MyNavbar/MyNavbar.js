@@ -7,7 +7,7 @@ const MyNavbar = () => {
     return (
         <div>
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand as={Link} to="/home">
+                <Navbar.Brand as={Link} to="/home" className="nav-title">
                     <strong className="nav-text">Zamzam's Portfolio</strong>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

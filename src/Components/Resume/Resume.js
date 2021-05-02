@@ -56,7 +56,7 @@ const Resume = () => {
             <h3>My skills</h3>
             <Row>
                 {skillsFakeData.map((skill) => (
-                    <Col md={4} lg={3}>
+                    <Col md={6} lg={4} xs={12} key={skill.id}>
                         {" "}
                         <div className="infoDiv skillsInfo">
                             <Row>
@@ -83,7 +83,7 @@ const Resume = () => {
             <h3>My Tools</h3>
             <Row>
                 {ToolsFakeData.map((tool) => (
-                    <Col md={3}>
+                    <Col md={6} lg={4} xs={12} key={tool.key}>
                         {" "}
                         <div className="infoDiv skillsInfo">
                             <Row>

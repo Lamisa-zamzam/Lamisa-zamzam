@@ -43,7 +43,7 @@ const About = () => {
                                 Lamisa Zamzam
                             </span>
                         </h3>
-                        <p style={{ marginRight: "35%" }}>
+                        <p style={{ marginRight: "20%" }}>
                             I am a full stack developer. I adore building
                             websites and handling errors, and even harm my sleep
                             to solve a problem. I lose myself amidst joy when I

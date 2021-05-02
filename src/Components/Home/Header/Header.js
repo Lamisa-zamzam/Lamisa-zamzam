@@ -11,7 +11,7 @@ const Header = () => {
         <section className="header">
             <Container>
                 <Row>
-                    <Col md={7} className="header-column">
+                    <Col md={12} lg={7} className="header-column">
                         <h1>
                             Hello, I am <br />
                             <span style={{ color: "dodgerblue" }}>
@@ -36,7 +36,7 @@ const Header = () => {
                             Resume
                         </Button>
                     </Col>
-                    <Col md={5}>
+                    <Col md={12} lg={5}>
                         <img src={myPicture} alt="" className="myPicture"/>
                     </Col>
                 </Row>

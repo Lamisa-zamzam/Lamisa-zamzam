@@ -1,4 +1,4 @@
-.image1{
+.image1 {
     border: 1px solid gray;
     border-radius: 5px;
 }
@@ -29,10 +29,15 @@
 
 .projectTitle {
     color: green;
-    
 }
 
-.projectSummary{
+.projectSummary {
     color: green;
     text-decoration: overline;
+}
+
+@media (max-width: 760px) {
+    .projectTitle {
+        margin-top: 100px !important;
+    }
 }

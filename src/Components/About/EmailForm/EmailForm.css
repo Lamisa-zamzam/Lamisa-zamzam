@@ -1,28 +1,33 @@
-.contact-form{
+.contact-form {
     color: white;
-    margin-left: 50px;
 }
 
-.contact-form .input, .contact-form textarea{
+@media (max-width: 760px) {
+    .contact-form {
+        margin-left: 0;
+    }
+}
+
+.contact-form .input,
+.contact-form textarea {
     color: white;
     background-color: transparent;
     border: 1px solid dodgerblue;
     width: 80%;
 }
 
-.contact-form textarea{
+.contact-form textarea {
     height: 110px;
 }
 
-.contact-form .input{
+.contact-form .input {
     height: 35px;
 }
 
-.contact-form .submitButton{
+.contact-form .submitButton {
     background-color: dodgerblue;
     color: white;
     border: none;
     padding: 2%;
     border-radius: 5px;
 }
-
