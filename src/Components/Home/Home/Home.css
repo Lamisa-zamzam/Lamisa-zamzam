@@ -1,28 +1,28 @@
-.home{
+.home {
     background-color: black;
     color: white;
     padding: 2%;
 }
 
-.home-section{
+.home-section {
     border-top: 5px solid dodgerblue;
     border-bottom: 5px solid dodgerblue;
     padding: 5%;
 }
 
-.resume-section{
+.resume-section {
     padding-left: 10%;
 }
 
-.rightAlignedButton{
+.rightAlignedButton {
     margin-left: 85%;
 }
 
-@media(max-width: 760px){
-    .rightAlignedButton{
+@media (max-width: 760px) {
+    .rightAlignedButton {
         margin-left: 55%;
     }
-    .home-resume{
+    .home-resume {
         margin-bottom: 10%;
     }
 }

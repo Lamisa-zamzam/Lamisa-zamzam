@@ -36,7 +36,9 @@ const ProjectsShort = (props) => {
                         <img src={screenshot1} className="projectImg" alt="" />
                     </Col>
                     <Col md={9}>
-                        <h5 className="shortProjectTitle">Zamzam International</h5>
+                        <h5 className="shortProjectTitle">
+                            Zamzam International
+                        </h5>
                         <p>
                             This is a Visa Agency Website. Registered visa
                             appliers can pay with their credit cards for booking
@@ -59,7 +61,9 @@ const ProjectsShort = (props) => {
                         <img src={screenshot2} className="projectImg" alt="" />
                     </Col>
                     <Col md={9}>
-                        <h5 className="shortProjectTitle">Zamzam's Collection</h5>
+                        <h5 className="shortProjectTitle">
+                            Zamzam's Collection
+                        </h5>
                         <p>
                             This is a full-stack website where authenticated
                             users can buy a product and see their orders. Admins
@@ -108,7 +112,9 @@ const ProjectsShort = (props) => {
                                 />
                             </Col>
                             <Col md={9}>
-                                <h5 className="shortProjectTitle">Juegoes del Universo</h5>
+                                <h5 className="shortProjectTitle">
+                                    Juegoes del Universo
+                                </h5>
                                 <p>
                                     This responsive project relates to games,
                                     sports and the tournaments available. I used
@@ -135,7 +141,9 @@ const ProjectsShort = (props) => {
                                 />
                             </Col>
                             <Col md={9}>
-                                <h5 className="shortProjectTitle">El Equipo de Suenio</h5>
+                                <h5 className="shortProjectTitle">
+                                    El Equipo de Suenio
+                                </h5>
                                 <p>
                                     React Interactive Website for Building
                                     Football Team
@@ -153,7 +161,7 @@ const ProjectsShort = (props) => {
                 </>
             )}
             {props.home && (
-                <Button as={Link} to="/projects" className="rightAlignedButton" >
+                <Button as={Link} to="/projects" className="rightAlignedButton">
                     Show All
                     <FontAwesomeIcon
                         icon={faArrowRight}

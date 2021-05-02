@@ -1,29 +1,29 @@
-.resumeContainer{
+.resumeContainer {
     background-color: black;
     color: white;
     padding: 5%;
 }
 
-.skillLogo{
+.skillLogo {
     width: 100%;
     height: 100px;
 }
 
-@media{
-    .skillLogo{
-        width: 90%;
+@media (max-width: 760px) {
+    .skillLogo {
+        width: 100%;
         height: auto;
     }
 }
 
-.projectImg{
+.projectImg {
     width: 100%;
 }
 
-.ecaCol{
+.ecaCol {
     padding-left: 10%;
 }
 
-.ecaList li{
+.ecaList li {
     list-style-type: square;
 }

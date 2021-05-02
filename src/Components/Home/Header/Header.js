@@ -5,10 +5,12 @@ import { Col, Container, Row, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import Particles from "react-particles-js";
+import Typewriter from "typewriter-effect";
 
 const Header = () => {
     return (
-        <section className="header">
+        <div className="header">
             <Container>
                 <Row>
                     <Col md={12} lg={7} className="header-column">
@@ -19,7 +21,22 @@ const Header = () => {
                                 Lamisa Zamzam
                             </span>
                         </h1>
-                        <h5>Junior Full Stack Developer</h5>
+                        <h3>
+                            {" "}
+                            <Typewriter
+                                options={{
+                                    strings: [
+                                        "Full Stack Developer",
+                                        "MERN Stack Developer",
+                                        "React Developer",
+                                        "Web Developer",
+                                        "Content Creator",
+                                    ],
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+                            />
+                        </h3>
                         <br />
                         <p>
                             Coding is my passion, websites are my home. Always
@@ -32,16 +49,37 @@ const Header = () => {
                             target="_blank"
                             download
                         >
-                            <FontAwesomeIcon icon={faDownload} className="icon"/> Download
-                            Resume
+                            <FontAwesomeIcon
+                                icon={faDownload}
+                                className="icon"
+                            />{" "}
+                            Download Resume
                         </Button>
+                        <Particles
+                            params={{
+                                particles: {
+                                    number: {
+                                        value: 200,
+                                        density: {
+                                            enable: true,
+                                            value_area: 1000,
+                                        },
+                                    },
+                                },
+                            }}
+                            style={{
+                                position: "absolute",
+                                top: 0,
+                                right: 0,
+                            }}
+                        />
                     </Col>
                     <Col md={12} lg={5}>
-                        <img src={myPicture} alt="" className="myPicture"/>
+                        <img src={myPicture} alt="" className="myPicture" />
                     </Col>
                 </Row>
             </Container>
-        </section>
+        </div>
     );
 };
 

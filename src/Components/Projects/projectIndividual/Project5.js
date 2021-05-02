@@ -44,7 +44,13 @@ const Project5 = () => {
                 </small>
                 <br />
                 <br />
-                <p>This React website provides users a way to create a football team. Users can add any player to their team and also remove a player they have added to their team. There are 20 player including forwards, midfielders, defenders and goalkeepers available to join a team.</p>
+                <p>
+                    This React website provides users a way to create a football
+                    team. Users can add any player to their team and also remove
+                    a player they have added to their team. There are 20 player
+                    including forwards, midfielders, defenders and goalkeepers
+                    available to join a team.
+                </p>
                 <p>
                     <b>Tools: </b>
                 </p>
@@ -65,7 +71,7 @@ const Project5 = () => {
                     Github Code{" "}
                 </a>
                 <br />
-                <hr/>
+                <hr />
             </Col>
         </Row>
     );

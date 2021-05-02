@@ -71,7 +71,7 @@ const Project3 = () => {
                 >
                     Github Code{" "}
                 </a>
-                <hr/>
+                <hr />
             </Col>
         </Row>
     );

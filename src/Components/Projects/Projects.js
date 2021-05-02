@@ -10,12 +10,12 @@ import Project5 from "./projectIndividual/Project5";
 const Projects = () => {
     return (
         <Container style={{ marginTop: "8%" }}>
-           <Project1/>
-           <Project2/>
-           <Project3/>
-           <Project4/>
-           <Project5/>
-           <p className="text-center mt-5">
+            <Project1 />
+            <Project2 />
+            <Project3 />
+            <Project4 />
+            <Project5 />
+            <p className="text-center mt-5">
                 <small>
                     Copyright © Lamisa Zamzam {new Date().getFullYear()}, all
                     rights reserved.{" "}

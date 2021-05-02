@@ -19,7 +19,11 @@ const Home = () => {
                 <section className="home-section">
                     <h3>My blogs: </h3>
                     <p>Coming Soon!! 😀</p>
-                    <Button as={Link} to="/blogs" className="rightAlignedButton">
+                    <Button
+                        as={Link}
+                        to="/blogs"
+                        className="rightAlignedButton"
+                    >
                         Show All
                         <FontAwesomeIcon
                             icon={faArrowRight}
@@ -39,7 +43,11 @@ const Home = () => {
                                 <li>Node.js</li>
                             </ul>
                             <br />
-                            <Button as={Link} to="/resume" className="home-resume">
+                            <Button
+                                as={Link}
+                                to="/resume"
+                                className="home-resume"
+                            >
                                 Show All
                                 <FontAwesomeIcon
                                     icon={faArrowRight}

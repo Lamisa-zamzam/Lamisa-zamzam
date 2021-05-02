@@ -3,7 +3,11 @@ import emailjs from "emailjs-com";
 import { Col, Container, Row } from "react-bootstrap";
 import "./EmailForm.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faMapMarkerAlt, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+    faEnvelope,
+    faMapMarkerAlt,
+    faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function EmailForm() {
     function sendEmail(e) {
@@ -20,9 +24,11 @@ export default function EmailForm() {
             )
             .then(
                 (result) => {
-                    if(result.text === "OK"){
-                        alert("Your email has been sent successfully!! Thank you for connecting with me.")
-                    };
+                    if (result.text === "OK") {
+                        alert(
+                            "Your email has been sent successfully!! Thank you for connecting with me."
+                        );
+                    }
                 },
                 (error) => {
                     console.log(error.text);

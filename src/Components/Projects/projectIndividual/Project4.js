@@ -72,10 +72,10 @@ const Project4 = () => {
                     target="_blank"
                     rel="noreferrer"
                 >
-                   Github Code{" "}
+                    Github Code{" "}
                 </a>
                 <br />
-                <hr/>
+                <hr />
             </Col>
         </Row>
     );
