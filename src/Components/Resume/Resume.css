@@ -6,7 +6,7 @@
 
 .skillLogo {
     width: 100%;
-    height: 100px;
+    margin-bottom: 30%;
 }
 
 @media (max-width: 760px) {
@@ -14,6 +14,11 @@
         width: 100%;
         height: auto;
     }
+}
+
+.listDiv{
+    padding: 2%;
+    box-shadow: 5px 5px 10px gray;
 }
 
 .projectImg {

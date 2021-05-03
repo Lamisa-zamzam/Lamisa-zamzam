@@ -6,6 +6,7 @@
     margin: 4%;
     padding: 4%;
     background-color: rgb(25, 29, 43);
+    box-shadow: 5px 5px 10px gray;
 }
 
 @media (max-width: 760px) {

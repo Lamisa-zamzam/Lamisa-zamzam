@@ -5,7 +5,8 @@
 }
 
 .header-column {
-    padding-top: 15%;
+    padding-top: 10%;
+    position: relative;
 }
 
 .header-column h1 {

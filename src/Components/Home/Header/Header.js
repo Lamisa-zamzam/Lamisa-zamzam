@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Particles from "react-particles-js";
 import Typewriter from "typewriter-effect";
+import Shake from "react-reveal/Shake";
+import Jump from "react-reveal/Jump";
 
 const Header = () => {
     return (
@@ -15,12 +17,15 @@ const Header = () => {
                 <Row>
                     <Col md={12} lg={7} className="header-column">
                         <h1>
-                            Hello, I am <br />
-                            <span style={{ color: "dodgerblue" }}>
+                            Hello, I am <br />{" "}
+                        </h1>
+                        <Jump>
+                            <h1 style={{ color: "dodgerblue" }}>
                                 {" "}
                                 Lamisa Zamzam
-                            </span>
-                        </h1>
+                            </h1>
+                        </Jump>
+
                         <h3>
                             {" "}
                             <Typewriter
@@ -43,18 +48,20 @@ const Header = () => {
                             running after exciting experiences and new
                             adventures. Big fan of brand new technologies.
                         </p>
-                        <Button
-                            as={Link}
-                            to="Lamisa- Zamzam-resume-updated.pdf"
-                            target="_blank"
-                            download
-                        >
-                            <FontAwesomeIcon
-                                icon={faDownload}
-                                className="icon"
-                            />{" "}
-                            Download Resume
-                        </Button>
+                        <Shake>
+                            <Button
+                                as={Link}
+                                to="Lamisa- Zamzam-resume-updated.pdf"
+                                target="_blank"
+                                download
+                            >
+                                <FontAwesomeIcon
+                                    icon={faDownload}
+                                    className="icon"
+                                />{" "}
+                                Download Resume
+                            </Button>
+                        </Shake>
                         <Particles
                             params={{
                                 particles: {

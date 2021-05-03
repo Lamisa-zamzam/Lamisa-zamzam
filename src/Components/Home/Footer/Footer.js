@@ -4,6 +4,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import Shake from "react-reveal/Shake";
 
 const Footer = () => {
     return (
@@ -19,17 +20,19 @@ const Footer = () => {
                     </h6>
                 </div>
                 <div>
-                    <Button
-                        className="contactBtn brandBtn"
-                        as={Link}
-                        to="/about"
-                    >
-                        Contact Me
-                        <FontAwesomeIcon
-                            icon={faArrowRight}
-                            style={{ marginLeft: "10px" }}
-                        />
-                    </Button>
+                    <Shake>
+                        <Button
+                            className="contactBtn brandBtn"
+                            as={Link}
+                            to="/about"
+                        >
+                            Contact Me
+                            <FontAwesomeIcon
+                                icon={faArrowRight}
+                                style={{ marginLeft: "10px" }}
+                            />
+                        </Button>
+                    </Shake>
                 </div>
             </div>
             <p className="text-center mt-5">

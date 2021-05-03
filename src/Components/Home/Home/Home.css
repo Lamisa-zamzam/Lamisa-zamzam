@@ -18,6 +18,11 @@
     margin-left: 85%;
 }
 
+.skillsHomeImg{
+    width: 15%;
+    margin-left: 5%;
+}
+
 @media (max-width: 760px) {
     .rightAlignedButton {
         margin-left: 55%;
