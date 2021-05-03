@@ -53,15 +53,15 @@ const Project1 = () => {
                     Responsive on mobile and laptop.
                 </p>
                 <p>
-                    <b>Tools: </b>
+                    <b className="heading">Tools: </b>
                 </p>
                 <p>
-                    <b>Front-end: </b>: React.js, React Router, React-Bootstrap,
+                    <b className="heading">Front-end: </b>: React.js, React Router, React-Bootstrap,
                     React Hook Form, Bootstrap, Stripe Payment Method, Firebase,
                     Firebase Authentication system.
                 </p>
                 <p>
-                    <b>Back-end: </b>: Node.js, Express.js, MongoDB, Heroku.
+                    <b className="heading">Back-end: </b>: Node.js, Express.js, MongoDB, Heroku.
                 </p>
                 <a
                     href="https://complete-website-3.web.app/"

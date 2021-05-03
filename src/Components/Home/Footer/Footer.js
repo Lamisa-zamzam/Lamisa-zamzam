@@ -11,7 +11,7 @@ const Footer = () => {
         <footer>
             <div className="contact-div">
                 <div className="contactDivCol ml-5">
-                    <h3>
+                    <h3 className="heading">
                         Do you want to <strong> hire me</strong>? Contact me
                         here:{" "}
                     </h3>

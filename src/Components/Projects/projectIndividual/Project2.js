@@ -52,16 +52,16 @@ const Project2 = () => {
                     tablets alongside laptops.
                 </p>
                 <p>
-                    <b>Tools: </b>
+                    <b className="heading">Tools: </b>
                 </p>
                 <p>
-                    <b>Front-end: </b> : React JS, React Router,
+                    <b className="heading">Front-end: </b> : React JS, React Router,
                     React-Bootstrap, React Hook Form, Bootstrap, Stripe Payment
                     Method, Firebase, Firebase authentication system, Material
                     UI.
                 </p>
                 <p>
-                    <b>Back-end: </b>: Node.js, Express.js, MongoDB, Heroku.
+                    <b className="heading">Back-end: </b>: Node.js, Express.js, MongoDB, Heroku.
                 </p>
                 <a
                     href=" https://full-stack-sport-grocery.web.app/"

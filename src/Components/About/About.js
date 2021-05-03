@@ -18,7 +18,7 @@ const About = () => {
                     color: "white",
                 }}
             >
-                <h1 style={{ marginBottom: "5%", marginLeft: "2%" }}>
+                <h1 style={{ marginBottom: "5%", marginLeft: "2%" }} className="subHeading">
                     About me
                 </h1>
                 <Row>
@@ -53,21 +53,21 @@ const About = () => {
                         <br />
                         <br />
                         <p>
-                            <b>Full Name : </b> Lamisa Zamzam
+                            <b className="heading">Full Name : </b> Lamisa Zamzam
                         </p>
                         <p>
-                            <b>Nationality : </b> Bangladeshi
+                            <b className="heading">Nationality : </b> Bangladeshi
                         </p>
                         <p>
-                            <b>Languages : </b> Bengali, English, Spanish,
+                            <b className="heading">Languages : </b> Bengali, English, Spanish,
                             French, Portuguese, Chinese, Arabic, Hindi
                         </p>
                         <p>
-                            <b>Address : </b> Dhap, Engineer Para, Rangpur,
+                            <b className="heading">Address : </b> Dhap, Engineer Para, Rangpur,
                             Bangladesh
                         </p>
                         <p>
-                            <b>Email : </b>lamisazamzam@gmail.com
+                            <b className="heading">Email : </b>lamisazamzam@gmail.com
                         </p>
                         <Button
                             as={Link}
@@ -89,6 +89,7 @@ const About = () => {
                         marginBottom: "2%",
                         marginLeft: "2%",
                     }}
+                    className="subHeading"
                 >
                     Get In Touch
                 </h2>

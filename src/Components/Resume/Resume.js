@@ -9,7 +9,6 @@ import { skillsFakeData } from "./SkillsFakeData";
 import { ToolsFakeData } from "./ToolsFakeData";
 import Roll from "react-reveal/Roll";
 import Slide from "react-reveal/Slide";
-import RubberBand from "react-reveal/RubberBand";
 import Shake from "react-reveal/Shake";
 
 const Resume = () => {
@@ -18,7 +17,7 @@ const Resume = () => {
             <Row>
                 <Col md={9}>
                     {" "}
-                    <h1>My Resume</h1>
+                    <h1 className="heading">My Resume</h1>
                 </Col>
                 <Col md={3} className="mt-2">
                     {" "}
@@ -61,18 +60,12 @@ const Resume = () => {
             <br />
             <div className="listDiv">
                 {" "}
-                <h3>My skills</h3>
+                <h3 className="subHeading">My skills</h3>
                 <br />
                 <Row>
                     {skillsFakeData.map((skill) => (
                         <Col md={2} lg={1} xs={3} key={skill.id}>
-                            <RubberBand>
-                                <img
-                                    src={skill.img}
-                                    alt=""
-                                    className="skillLogo"
-                                />
-                            </RubberBand>
+                            <img src={skill.img} alt="" className="skillLogo" />
                         </Col>
                     ))}
                 </Row>
@@ -81,18 +74,12 @@ const Resume = () => {
             <br />
             <br />
             <div className="listDiv">
-                <h3>My Tools</h3>
+                <h3 className="subHeading">My Tools</h3>
                 <br />
                 <Row>
                     {ToolsFakeData.map((tool) => (
                         <Col md={2} lg={1} xs={3} key={tool.key}>
-                            <RubberBand>
-                                <img
-                                    src={tool.img}
-                                    alt=""
-                                    className="skillLogo"
-                                />
-                            </RubberBand>
+                            <img src={tool.img} alt="" className="skillLogo" />
                         </Col>
                     ))}
                 </Row>
@@ -105,7 +92,7 @@ const Resume = () => {
                 <br />
                 <br />
                 <br />
-                <h3>Extra Curricular Activities</h3>
+                <h3 className="heading">Extra Curricular Activities</h3>
                 <br />
                 <Row>
                     <Col md={6} className="ecaCol">
@@ -145,7 +132,7 @@ const Resume = () => {
                     <Roll left>
                         {" "}
                         <div>
-                            <h3>Leaderships</h3>
+                            <h3 className="subHeading">Leaderships</h3>
                             <ul>
                                 <li>School Level Football Team Captain</li>
                                 <li>Class Captain for Several years</li>
@@ -157,7 +144,7 @@ const Resume = () => {
                     {" "}
                     <Roll right>
                         <div>
-                            <h3>Languages</h3>
+                            <h3 className="subHeading">Languages</h3>
                             <ul>
                                 <li>Bengali, English, Spanish, French</li>
                                 <li>Portuguese, Hindi, Chinese, Arabic</li>

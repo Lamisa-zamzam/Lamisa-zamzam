@@ -83,7 +83,7 @@ export default function EmailForm() {
                                 />
                             </Col>
                             <Col md={10}>
-                                <h4>Phone</h4>
+                                <h4 className="subHeading">Phone</h4>
                                 <p>01714762741</p>
                             </Col>
                         </Row>
@@ -98,7 +98,7 @@ export default function EmailForm() {
                                 />
                             </Col>
                             <Col md={10}>
-                                <h4>Email</h4>
+                                <h4 className="subHeading">Email</h4>
                                 <p>lamisazamzam@gmail.com</p>
                             </Col>
                         </Row>
@@ -113,7 +113,7 @@ export default function EmailForm() {
                                 />
                             </Col>
                             <Col md={10}>
-                                <h4>Address</h4>
+                                <h4 className="subHeading">Address</h4>
                                 <p>Dhap, Engineer Para, Rangpur, Bangladesh</p>
                             </Col>
                         </Row>

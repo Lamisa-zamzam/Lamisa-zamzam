@@ -19,7 +19,7 @@ const ProjectsShort = (props) => {
             <Row>
                 <Col md={9}>
                     {" "}
-                    <h1>My Projects</h1>
+                    <h1 className="heading">My Projects</h1>
                 </Col>
                 <Col md={3} className="mt-2">
                     {" "}
@@ -46,7 +46,7 @@ const ProjectsShort = (props) => {
                             />
                         </Col>
                         <Col md={9}>
-                            <h5 className="shortProjectTitle">
+                            <h5 className="shortProjectTitle subHeading">
                                 Zamzam International
                             </h5>
                             <p>
@@ -77,7 +77,7 @@ const ProjectsShort = (props) => {
                             />
                         </Col>
                         <Col md={9}>
-                            <h5 className="shortProjectTitle">
+                            <h5 className="shortProjectTitle subHeading">
                                 Zamzam's Collection
                             </h5>
                             <p>
@@ -108,7 +108,9 @@ const ProjectsShort = (props) => {
                             />
                         </Col>
                         <Col md={9}>
-                            <h5 className="shortProjectTitle">Globetrotter</h5>
+                            <h5 className="shortProjectTitle subHeading">
+                                Globetrotter
+                            </h5>
                             <p>
                                 This responsive project provides users with
                                 several ways to travel around the city.
@@ -137,7 +139,7 @@ const ProjectsShort = (props) => {
                                     />
                                 </Col>
                                 <Col md={9}>
-                                    <h5 className="shortProjectTitle">
+                                    <h5 className="shortProjectTitle subHeading">
                                         Juegoes del Universo
                                     </h5>
                                     <p>
@@ -169,7 +171,7 @@ const ProjectsShort = (props) => {
                                     />
                                 </Col>
                                 <Col md={9}>
-                                    <h5 className="shortProjectTitle">
+                                    <h5 className="shortProjectTitle subHeading">
                                         El Equipo de Suenio
                                     </h5>
                                     <p>

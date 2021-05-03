@@ -20,7 +20,7 @@ const Home = () => {
                     <ProjectsShort home={true} />
                 </div>
                 <section className="home-section">
-                    <h3>My blogs: </h3>
+                    <h3 className="heading">My blogs: </h3>
                     <p>Coming Soon!! 😀</p>
                     <Jump>
                         <Button
@@ -37,12 +37,12 @@ const Home = () => {
                     </Jump>
                 </section>
                 <section className="home-section resume-section">
-                    <h3>My resume</h3>
+                    <h3 className="heading">My resume</h3>
                     <br />
                     <Row>
                         <Col md={6}>
                             <Zoom left>
-                                <h5>Top Skills</h5>
+                                <h5 className="subHeading">Top Skills</h5>
                                 <div>
                                     <img
                                         src="https://tse4.mm.bing.net/th?id=OIP.qTXL2R06KCKuw09n4AvtygHaIU&pid=Api&P=0&w=300&h=300"
@@ -79,7 +79,7 @@ const Home = () => {
 
                         <Col md={6}>
                             <Zoom right>
-                                <h5>Extra Curricular Activities</h5>
+                                <h5 className="subHeading">Extra Curricular Activities</h5>
                                 <ul>
                                     <li>Leaderships</li>
                                     <li>Learning Languages</li>

@@ -26,7 +26,7 @@ const Header = () => {
                             </h1>
                         </Jump>
 
-                        <h3>
+                        <h3 className="subHeading">
                             {" "}
                             <Typewriter
                                 options={{

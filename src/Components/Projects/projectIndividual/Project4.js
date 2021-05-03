@@ -52,7 +52,7 @@ const Project4 = () => {
                     sporting mentality.
                 </p>
                 <p>
-                    <b>Tools: </b>
+                    <b className="heading">Tools: </b>
                 </p>
                 <p>
                     {" "}

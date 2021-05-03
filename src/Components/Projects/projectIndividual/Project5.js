@@ -52,7 +52,7 @@ const Project5 = () => {
                     available to join a team.
                 </p>
                 <p>
-                    <b>Tools: </b>
+                    <b className="heading">Tools: </b>
                 </p>
                 <p> React.js, React-Bootstrap, Bootstrap</p>
                 <a

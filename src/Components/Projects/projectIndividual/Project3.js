@@ -50,7 +50,7 @@ const Project3 = () => {
                     that date and place.
                 </p>
                 <p>
-                    <b>Tools: </b>
+                    <b className="heading">Tools: </b>
                 </p>
                 <p>
                     React JS, React Router, React-Bootstrap, React Hook Form,
