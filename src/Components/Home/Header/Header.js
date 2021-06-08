@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Particles from "react-particles-js";
 import Typewriter from "typewriter-effect";
-import Shake from "react-reveal/Shake";
 import Jump from "react-reveal/Jump";
 
 const Header = () => {
@@ -48,7 +47,6 @@ const Header = () => {
                             running after exciting experiences and new
                             adventures. Big fan of brand new technologies.
                         </p>
-                        <Shake>
                             <Button
                                 as={Link}
                                 to="Lamisa- Zamzam-resume-updated.pdf"
@@ -61,7 +59,6 @@ const Header = () => {
                                 />{" "}
                                 Download Resume
                             </Button>
-                        </Shake>
                         <Particles
                             params={{
                                 particles: {

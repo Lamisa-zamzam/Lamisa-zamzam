@@ -12,6 +12,7 @@ import screenshot2 from "../../images/2021-05-01 (11).png";
 import screenshot3 from "../../images/2021-05-01 (23).png";
 import screenshot4 from "../../images/2021-05-01 (15).png";
 import screenshot5 from "../../images/2021-05-01 (24).png";
+import screenshotSweet from "../../images/sweet-home-910.web.app_.png";
 
 const ProjectsShort = (props) => {
     return (
@@ -23,15 +24,13 @@ const ProjectsShort = (props) => {
                 </Col>
                 <Col md={3} className="mt-2">
                     {" "}
-                    <Shake>
-                        <Button as={Link} to="/projects">
-                            Show Detail
-                            <FontAwesomeIcon
-                                icon={faArrowRight}
-                                className="ml-2"
-                            />{" "}
-                        </Button>
-                    </Shake>
+                    <Button as={Link} to="/projects">
+                        Show Detail
+                        <FontAwesomeIcon
+                            icon={faArrowRight}
+                            className="ml-2"
+                        />{" "}
+                    </Button>
                 </Col>
             </Row>
             <br />
@@ -87,6 +86,46 @@ const ProjectsShort = (props) => {
                             </p>
                             <a
                                 href=" https://full-stack-sport-grocery.web.app/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                Visit my live site
+                            </a>
+                        </Col>
+                    </Row>
+                </Slide>
+            </div>
+
+            <div className="infoDiv">
+                <Slide right>
+                    <Row>
+                        <Col md={3}>
+                            <img
+                                src={screenshotSweet}
+                                className="projectImg"
+                                alt=""
+                            />
+                        </Col>
+                        <Col md={9}>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <h5
+                                className="shortProjectTitle subHeading"
+                            >
+                                Sweet Home
+                            </h5>
+                            <p>
+                                This is a full-stack website house renting
+                                website where authenticated users can buy a
+                                product and see their orders. Admins can add,
+                                edit and delete products.
+                            </p>
+                            <a
+                                href="https://sweet-home-910.web.app/"
                                 target="_blank"
                                 rel="noreferrer"
                             >

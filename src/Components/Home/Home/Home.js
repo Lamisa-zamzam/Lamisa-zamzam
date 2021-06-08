@@ -7,8 +7,6 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Footer from "../Footer/Footer";
-import Shake from "react-reveal/Shake";
-import Jump from "react-reveal/Jump";
 import Zoom from "react-reveal/Zoom";
 
 const Home = () => {
@@ -22,7 +20,6 @@ const Home = () => {
                 <section className="home-section">
                     <h3 className="heading">My blogs: </h3>
                     <p>Coming Soon!! 😀</p>
-                    <Jump>
                         <Button
                             as={Link}
                             to="/blogs"
@@ -34,7 +31,6 @@ const Home = () => {
                                 className="ml-2"
                             />{" "}
                         </Button>
-                    </Jump>
                 </section>
                 <section className="home-section resume-section">
                     <h3 className="heading">My resume</h3>
@@ -62,7 +58,6 @@ const Home = () => {
                                 </div>
                             </Zoom>
                             <br />
-                            <Shake>
                                 <Button
                                     as={Link}
                                     to="/resume"
@@ -74,7 +69,6 @@ const Home = () => {
                                         className="ml-2"
                                     />{" "}
                                 </Button>
-                            </Shake>
                         </Col>
 
                         <Col md={6}>
@@ -87,7 +81,6 @@ const Home = () => {
                                 </ul>
                             </Zoom>
                             <br />
-                            <Shake>
                                 <Button as={Link} to="/resume">
                                     Show All
                                     <FontAwesomeIcon
@@ -95,7 +88,6 @@ const Home = () => {
                                         className="ml-2"
                                     />{" "}
                                 </Button>
-                            </Shake>
                         </Col>
                     </Row>
                 </section>

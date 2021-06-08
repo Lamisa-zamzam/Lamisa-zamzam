@@ -1,12 +1,16 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import myPicture from "../../images/pixlr-bg-result.png";
+import Blog from "./Blog/Blog";
+import { BlogData } from "./BlogData";
 
 const Blogs = () => {
     return (
-        <Container style={{ marginTop: "5%" }}>
+        <Container>
             <Row>
                 <Col md={3}>
+                    <br />
+                    <br />
                     <img
                         src={myPicture}
                         alt=""
@@ -19,6 +23,10 @@ const Blogs = () => {
                     />
                 </Col>
                 <Col md={9}>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <h3 className="text-center">
                         <a
                             href="https://medium.com/@lamisazamzam"
@@ -28,10 +36,14 @@ const Blogs = () => {
                             Visit my Medium profile
                         </a>
                     </h3>
-                    <h4 className="mt-5 text-center">
-                        My blogs are coming soon!!! Please wait 😀 !
-                    </h4>
                 </Col>
+            </Row>
+            <br />
+            <br />
+            <Row>
+                {BlogData.map((blog) => (
+                    <Blog blog={blog} />
+                ))}
             </Row>
             <p className="text-center mt-5">
                 <small>

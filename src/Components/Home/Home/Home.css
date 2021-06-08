@@ -18,7 +18,7 @@
     margin-left: 85%;
 }
 
-.skillsHomeImg{
+.skillsHomeImg {
     width: 15%;
     margin-left: 5%;
 }
@@ -32,10 +32,10 @@
     }
 }
 
-.heading{
-    color: green;
+.heading {
+    color: goldenrod;
 }
 
-.subHeading{
-    color: magenta;
+.subHeading {
+    color: green;
 }
